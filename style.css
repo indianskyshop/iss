@@ -217,12 +217,18 @@ body {
 }
 
 /* Style the navigation menu */
-#myMenu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: #b7b7b7;
+  display: block;
+  background-color: black;
+  width: 40vw;
+  display: inline-block;
+  scroll-behavior: smooth;
+  border-radius: 8px;
+  margin: 2px;
 }
-
 /* Style the navigation links */
 #myMenu li a {
   padding: 12px;
@@ -233,4 +239,7 @@ body {
 
 #myMenu li a:hover {
   background-color: #eee;
+}
+.search {
+ text-align: center;
 }
