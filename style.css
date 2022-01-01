@@ -221,10 +221,9 @@ body {
   padding: 12px;
   text-decoration: none;
   color: #b7b7b7;
-  display: block;
+  display: none;
   background-color: black;
   width: 15rem;
-  display: inline-block;
   scroll-behavior: smooth;
   border-radius: 8px;
   margin: 2px;
@@ -234,12 +233,9 @@ body {
   padding: 12px;
   text-decoration: none;
   color: black;
-  display: block
+  display: block;
 }
 
 #myMenu li a:hover {
   background-color: #eee;
-}
-.invis {
- display: none;
 }
