@@ -239,3 +239,6 @@ body {
 #myMenu li a:hover {
   background-color: #eee;
 }
+.invis {
+ display: none;
+}
