@@ -54,6 +54,7 @@ function srch() {
     a = li[i].getElementsByTagName("a")[0];
     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "inline-block";
+      li[i].classList.remove("invis");
     } else {
       li[i].style.display = "none";
     }
