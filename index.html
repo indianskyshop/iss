@@ -6,20 +6,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  </head>
  <body>
+  <div class="icon-bar">
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  </div>
   <div id="mySidenav" class="sidenav">
    <div class="search">
     <input type="text" id="Search" onkeyup="srch()" placeholder="Search..." title="Type A Product Name/Service">
 
-    <ul id="Menu" class="invis">
-     <li><a href="#">product1</a></li>
-     <li><a href="#">product2</a></li>
-     <li><a href="#">product3</a></li>
-     <li><a href="#">product4</a></li>
-     <li><a href="#">product5</a></li>
-     <li><a href="#">product6</a></li>
-     <li><a href="#">product7</a></li>
-     <li><a href="#">product8</a></li>
-     <li><a href="#">null</a></li>
+    <ul id="Menu">
+     <li class="invis"><a href="#">product1</a></li>
+     <li class="invis"><a href="#">product2</a></li>
+     <li class="invis"><a href="#">product3</a></li>
+     <li class="invis"><a href="#">product4</a></li>
+     <li class="invis"><a href="#">product5</a></li>
+     <li class="invis"><a href="#">product6</a></li>
+     <li class="invis"><a href="#">product7</a></li>
+     <li class="invis"><a href="#">product8</a></li>
+     <li class="invis"><a href="#">null</a></li>
     </ul>
    </div>
    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -66,9 +69,6 @@
      <span class="dot" onclick="currentSlide(1)"></span>
      <span class="dot" onclick="currentSlide(2)"></span>
      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-   <div class="icon-bar">
-   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
   </div>
   </div>
  </body>
