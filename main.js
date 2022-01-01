@@ -44,9 +44,9 @@ function showSlides(n) {
 function srch() {
   // Declare variables
   var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
+  input = document.getElementById("Search");
   filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
+  ul = document.getElementById("Menu");
   li = ul.getElementsByTagName("li");
 
   // Loop through all list items, and hide those who don't match the search query
