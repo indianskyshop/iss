@@ -223,7 +223,7 @@ body {
   color: #b7b7b7;
   display: block;
   background-color: black;
-  width: 40vw;
+  width: 11vw;
   display: inline-block;
   scroll-behavior: smooth;
   border-radius: 8px;
@@ -239,7 +239,4 @@ body {
 
 #myMenu li a:hover {
   background-color: #eee;
-}
-.search {
- text-align: center;
 }
