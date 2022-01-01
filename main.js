@@ -5,8 +5,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-</script>
-  <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
