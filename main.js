@@ -57,7 +57,6 @@ function srch() {
       li[i].classList.remove("invis");
     } else {
       li[i].style.display = "none";
-      li[i].classList.add("invis");
     }
   }
 }
