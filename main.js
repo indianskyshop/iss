@@ -1,18 +1,6 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -41,6 +29,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
 function srch() {
   // Declare variables
   var input, filter, ul, li, a, i;
