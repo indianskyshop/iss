@@ -1,13 +1,11 @@
 .description {
- background-image: linear-gradient(
-150deg, orange, white, green);
- background-image: linear-gradient( 
-150deg, orange, white, green);
-    padding: 20px;
-    width: 100vw;
-    display: block;
-    position: relative;
-    left: 0%;
+ background-image: linear-gradient( 174deg, orange, white, green);
+ padding: 20px;
+ width: 100vw;
+ display: block;
+ position: relative;
+ left: 0%;
+ top: -8px;
 }
 body {
   font-family: "Lato", sans-serif;
