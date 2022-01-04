@@ -1,0 +1,123 @@
+<html class="hydrated"><head><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+ </head>
+ <body>
+  <div id="mySidenav" class="sidenav">
+   <div class="search">
+    <input type="text" id="Search" onkeyup="srch()" placeholder="Search..." title="Type A Product Name/Service">
+
+    <ul id="Menu">
+     <li class="invis"><a href="#">product1</a></li>
+     <li class="invis"><a href="#">product2</a></li>
+     <li class="invis"><a href="#">product3</a></li>
+     <li class="invis"><a href="#">product4</a></li>
+     <li class="invis"><a href="#">product5</a></li>
+     <li class="invis"><a href="#">product6</a></li>
+     <li class="invis"><a href="#">product7</a></li>
+     <li class="invis"><a href="#">product8</a></li>
+     <li class="invis"><a href="#">null</a></li>
+    </ul>
+   </div>
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+   <a href="about.html">About us</a>
+   <a href="ro.service">R.O. service</a>
+   <a href="#">Test</a>
+   <a href="contact.html">Contact us</a>
+  </div>
+  <div class="topnav" id="myTopnav">
+   <a href="index.html" class="active">Home</a>
+   <a href="#contact">Contact</a>
+   <a href="#about">About</a>
+  </div>
+  <div class="description content">
+   <h1>Welcome To IndianSkyShop!</h1>
+   <h2>We Try To Make Your Life Easier And Your Health Better</h2>
+   <p>Lets Make Your Health, <em>Better</em>.</p>
+  </div>
+   
+
+  
+  
+   <div class="icon-bar">
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ </span>
+   </div>
+  <div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2017</h2>
+      <p>timeline</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2016</h2>
+      <p>timeline</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2015</h2>
+      <p>timeline</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2012</h2>
+      <p>timeline</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2011</h2>
+      <p>timeline</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2007</h2>
+      <p>timeline</p>
+    </div>
+  </div>
+</div>
+ <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Assistance</h3>
+                        <ul>
+                            <li><a href="#">Water Filter Maintenance And Services</a></li>
+                            <li><a href="#">Healthcare Products</a></li>
+                            <li><a href="#">Herbal Medicines</a></li>
+                            <li><a href="#">Beauty Products</a></li>
+                            <li><a href="#">All Home Appliance</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About Us</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Queries/CustomerCare</a></li>
+                        </ul>
+                    </div>
+        <div class="col-md-6 item text">
+         <h3>Indian Sky Shop</h3>
+         <p>Here, At IndianSkyShop! We Tend To Make The World A <em>Much</em> Better Place. WE Want To See The Whole India Success Exponentially Before Our Eyes. You Can Help Us Achieve Your Dream, Just Like Our Thousands Of Customers! <br> Shop Today!</p>
+        </div>
+        <div class="col item social"><a href="#"><i class="icon ion-social-whatsapp"></i></a><a href="#"><i class="icon ion-ios-telephone"></i></a><a href="#"><i class="icon ion-android-mail"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
+       </div>
+      <p class="copyright">IndianSkyShop © 2020-2021</p>
+     </div>
+    </footer>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+
+</body></html>
