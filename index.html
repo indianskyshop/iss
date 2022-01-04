@@ -34,6 +34,12 @@
    <a href="index.html" class="active">Home</a>
    <a href="#contact">Contact</a>
    <a href="#about">About</a>
+   <form action="openPage()" class="search-bar">
+    <input type="search" name="search" pattern=".*\S.*" required onchange="openPage()">
+    <button class="search-btn" type="submit">
+    <span>Search</span>
+    </button>
+   </form>
     <input type="search" value="" id="search" onchange="openPage()">
 
     <script>
