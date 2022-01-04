@@ -34,6 +34,41 @@
    <a href="index.html" class="active">Home</a>
    <a href="#contact">Contact</a>
    <a href="#about">About</a>
+    <input type="search" value="" id="search" onchange="openPage()">
+
+    <script>
+        function openPage() {
+            var x = document.getElementById("search").value;
+
+            if (x === "ro") {
+                window.open("/ro.service");
+            }
+         if (x === "r.o.") {
+                window.open("/ro.service");
+            }
+         if (x === "RO") {
+                window.open("/ro.service");
+            }
+         if (x === "R.O.") {
+                window.open("/ro.service");
+            }
+         if (x === "R.o.") {
+                window.open("/ro.service");
+            }
+         if (x === "Ro") {
+                window.open("/ro.service");
+            }
+         if (x === "ro.") {
+                window.open("/ro.service");
+            }
+         if (x === "r.o") {
+                window.open("/ro.service");
+            }
+         if (x === "R.o") {
+                window.open("/ro.service");
+            }
+        }
+   </script>
   </div>
   <div class="description content">
    <h1>Welcome To IndianSkyShop!</h1>
