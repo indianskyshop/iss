@@ -37,6 +37,14 @@
    <a href="#about">About</a>
    <input type="search" value="" id="search" onchange="openPage()" required>
     <script>
+     var activeURL = window.location.href;
+     var activeItem = aactiveURL.substring(activeUrl.indexOf('?') + 1, activeURL.length);
+     if (activeItem === "test"){
+            var img = document.createElement('img');
+            img.src = 'https://parv66.tk/parv66.uwu.jpg';
+            img.id = 'hiddenimage';
+     
+     }
         function openPage() {
             var x = document.getElementById("search").value;
 
