@@ -701,7 +701,7 @@ body{margin-top:20px;}
 
 .dropdown:hover .dropbtn {color: #c8d0d6;}
 .activeicon {color: #dfe2e4;}
-.form-control {
+.searchbar {
     display: block;
     width: 52%;
     height: calc(2.25rem + 2px);
