@@ -656,7 +656,6 @@ body{margin-top:20px;}
 	z-index: 1;
 }
 .iconh {
-	color: #a0a7ad;
 	width: 45px;
 	height: 45px;
 }
@@ -673,13 +672,7 @@ body{margin-top:20px;}
 .iconcell:hover {
 	color: #c8d0d6;
 }
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
+.dropbtn {}
 
 .dropdown {
   position: relative;
@@ -704,6 +697,6 @@ body{margin-top:20px;}
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; position: absolute; top: 69%; right: 0%;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
