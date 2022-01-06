@@ -644,3 +644,35 @@ body{margin-top:20px;}
 .dropdown-toggle {
   outline: 0;
 }
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	width: 100%;
+	height: 95px;
+	align-content: center;
+	align-items: center;
+	background-color: #282d32;
+}
+.iconh {
+	color: #a0a7ad;
+	width: 45px;
+	height: 45px;
+}
+.iconcell {
+	width: 70px;
+	height: fit-content;
+	text-align: center;
+	font-size: small;
+	color: #a0a7ad;
+	display: inline-block;
+	margin: 2px;
+	position: relative;
+}
+.iconcell:hover {
+	color: aliceblue;
+}
+.iconh:hover {
+	color: aqua
+}
