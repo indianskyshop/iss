@@ -5,7 +5,7 @@
  display: block;
  position: relative;
  left: 0%;
- top: -8px;
+ height: 200px;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -130,6 +130,7 @@ body {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  top: 15px;
 }
 
 /* Hide the images by default */
@@ -497,7 +498,7 @@ input {
 		background: #f1f1f1;
 	}
 }
-body{margin-top:20px;}
+body{}
 .timeline {
     border-left: 3px solid #727cf5;
     border-bottom-right-radius: 4px;
