@@ -759,12 +759,29 @@ body{}
     flex-grow: 1;
     max-width: 100%;
 }
-<div class="mtable">
-      <div class="mcard">
-    <img class="mimg" src="https://cdn2.iconfinder.com/data/icons/home-appliances-51/32/water-purifier-filtration-ro-purification-uv-512.png">
-</div>
-    <div class="mcard"></div>
-    <div class="mcard"></div>
-    <div class="mcard"></div>
-    <div class="mcard"></div>
-  </div>
+.mtable {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.mcard {
+    background-color: #ca3838;
+    width: 20%;
+    height: 83%;
+    margin: 40px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+.mimg {
+	width: 97%;
+	height: auto;
+	border-radius: 40%;
+	border: 7px solid brown;
+	padding: 9%;
+	margin-top: 15%;
+}
