@@ -61,3 +61,63 @@ function srch() {
     }
   }
 }
+// Get the modal
+var wamodal = document.getElementById("waPop");
+var phmodal = document.getElementById("phPop");
+var ytmodal = document.getElementById("ytPop");
+var mlmodal = document.getElementById("mlPop");
+
+// Get the button that opens the modal
+var wabtn = document.getElementById("wabtn");
+var phbtn = document.getElementById("phbtn");
+var ytbtn = document.getElementById("ytbtn");
+var mlbtn = document.getElementById("mlbtn");
+
+// Get the <span> element that closes the modal
+var waspan = document.getElementById("waclose");
+var phspan = document.getElementById("phclose");
+var ytspan = document.getElementById("ytclose");
+var mlspan = document.getElementById("mlclose");
+
+// When the user clicks the button, open the modal 
+wabtn.onclick = function() {
+  wamodal.style.display = "block";
+}
+phbtn.onclick = function() {
+  phmodal.style.display = "block";
+}
+ytbtn.onclick = function() {
+  ytmodal.style.display = "block";
+}
+mlbtn.onclick = function() {
+  mlmodal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+waspan.onclick = function() {
+  wamodal.style.display = "none";
+}
+phspan.onclick = function() {
+  phmodal.style.display = "none";
+}
+ytspan.onclick = function() {
+  ytmodal.style.display = "none";
+}
+mlspan.onclick = function() {
+  mlmodal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == wamodal) {
+    wamodal.style.display = "none";
+  }
+  if (event.target == phmodal) {
+    phmodal.style.display = "none";
+  }
+  if (event.target == ytmodal) {
+    ytmodal.style.display = "none";
+  }
+  if (event.target == mlmodal) {
+    mlmodal.style.display = "none";
+  }
+}
