@@ -833,3 +833,8 @@ body{}
   box-shadow: none;
   transform: translateY(0);
 }
+@media only screen and (max-width: 360px) {
+  body {
+    font-size: xxx-large;
+  }
+}
