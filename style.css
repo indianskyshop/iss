@@ -166,7 +166,7 @@ body {
 }
 
 /* Caption text */
-.text {
+.slidetext {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -177,7 +177,15 @@ body {
   top: 510px;
   left: 0;
 }
-
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
