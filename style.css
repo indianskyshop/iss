@@ -897,7 +897,6 @@ input {
     display: inline-block;
     font-size: 13px;
     font-weight: 600;
-    /* height: 19px; */
     letter-spacing: .02em;
     line-height: 19px;
     padding: 14px 24px;
@@ -909,4 +908,5 @@ input {
     vertical-align: baseline;
     text-align: center;
     text-rendering: optimizeLegibility;
+    text-decoration: none;
 }
