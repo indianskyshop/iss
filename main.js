@@ -226,4 +226,4 @@ function autocomplete(inp, arr) {
 var search = ["About","Home","R.O.","Contact"];
 
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
-autocomplete(document.getElementById("myInput"), search);
+autocomplete(document.getElementById("Search"), search);
