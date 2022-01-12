@@ -891,3 +891,21 @@ input {
   text-decoration: none;
   cursor: pointer;
 }
+.wabtn {
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    /* height: 19px; */
+    letter-spacing: .02em;
+    line-height: 19px;
+    padding: 14px 24px;
+    white-space: nowrap;
+    background-color: #01e675;
+    color: #fff!important;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
