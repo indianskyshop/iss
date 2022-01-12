@@ -894,11 +894,9 @@ input {
 }
 .wabtn {
     border-radius: 5px;
-    display: inline-block;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: .02em;
-    line-height: 19px;
     padding: 14px 24px;
     white-space: nowrap;
     background-color: #01e675;
@@ -909,4 +907,22 @@ input {
     text-align: center;
     text-rendering: optimizeLegibility;
     text-decoration: none;
+    margin: 16px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+.walogo {
+	height: 160px;
+	color: white;
+	width: 160px;
+	background: #01e675;
+}
+.watext {
+	position: absolute;
+	color: black;
+	left: 320px;
+	font-size: x-large;
+	width: 320px;
+	bottom: 110px;
 }
