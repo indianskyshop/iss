@@ -882,6 +882,7 @@ input {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
+  text-decoration: none;
   font-weight: bold;
 }
 
