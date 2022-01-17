@@ -24,3 +24,73 @@ function test() {
     testfail();
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+function openPage() {
+            var x = document.getElementById("search").value;
+         if (x === "ro") {
+                location.replace("/ro.service");
+            }
+            if (x === "r.o.") {
+                location.replace("/ro.service");
+            }
+            if (x === "RO") {
+                location.replace("/ro.service");
+            }
+            if (x === "R.O.") {
+                location.replace("/ro.service");
+            }
+            if (x === "R.o.") {
+                location.replace("/ro.service");
+            }
+            if (x === "Ro") {
+                location.replace("/ro.service");
+            }
+            if (x === "ro.") {
+                location.replace("/ro.service");
+            }
+            if (x === "r.o") {
+                location.replace("/ro.service");
+            }
+            if (x === "R.o") {
+                location.replace("/ro.service");
+            }
+            if (x === "about") {
+                location.replace("/about");
+            }
+            if (x === "about us") {
+                location.replace("/about");
+            }
+            if (x === "About Us") {
+                location.replace("/about");
+            }
+            if (x === "About us") {
+                location.replace("/about");
+            }
+             if (x === "About") {
+                location.replace("/about");
+            }
+            if (x === "ABOUT") {
+                location.replace("/about");
+            } 
+            if (x === "ABOUT US") {
+                location.replace("/about");
+            }
+         if (x === "about ") {
+                location.replace("/about");
+            }
+         if (x === "about  us") {
+                location.replace("/about");
+            }
+        }
